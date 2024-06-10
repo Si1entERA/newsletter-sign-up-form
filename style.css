@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  border: 1px solid blue;
+}
+
+.top{
+  border: 2px solid orange;
+}
+
+.middle {
+  border: 2px solid green;
+}
+
+.bottom {
+  border: 2px solid red;
+}
