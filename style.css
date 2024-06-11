@@ -37,7 +37,7 @@ main {
 
 .container{
   border: 1px solid blue;
-  display: none;
+  display: block;
 }
 
 .top{
@@ -88,13 +88,24 @@ h1 {
 /************ CONTENT END  ***************/
 
 .bottom {
-  /* border: 2px solid red; */
+  border: 2px solid red;
   display: flex;
   justify-content: center;
 }
 
+.bottom-header {
+  border: 2px solid purple;
+  display: flex;
+  justify-content: space-between;
+}
+
+.error {
+  color: var(--Tomato);
+  display: none;
+}
+
 form {
-  /* border: 2px solid black; */
+  border: 2px solid black;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -137,7 +148,7 @@ button:active{
 /* SUCCESS CONTAINER START */
 .success-container {
   border: 1px solid blue;
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   height: 100vh;
