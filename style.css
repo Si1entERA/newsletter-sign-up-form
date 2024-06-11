@@ -41,7 +41,7 @@ main {
 }
 
 .container{
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   border-radius: 20px;
@@ -162,7 +162,7 @@ button:active{
 
 /* SUCCESS CONTAINER START */
 .success-container {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   background-color: var(--White);
   display: none;
   flex-direction: column;
