@@ -44,13 +44,15 @@
     </section>
 
     <section class="bottom">
-      <form novalidate>
+      <form id="form" novalidate>
         <article class="bottom-header">
           <p>Email address</p>
-          <p class="error">Vaild email required</p>
+          <p class="error" id="error">Vaild email required</p>
         </article>
-        <input placeholder="email@company.com">
-        <button>Subscribe to monthly newsletter</button>
+        <input id="email" placeholder="email@company.com">
+        <!-- <button id="submit" type="submit">Subscribe to monthly newsletter</button> -->
+        <!-- <button id="submit" type="submit"></button> -->
+        <input type="submit" id="submit" value="Subscribe to monthly newsletter">
       </form>
     </section>
   </section>
@@ -63,7 +65,7 @@
     <section class="success-content">
       <h1>Thanks for subscribing!</h1>
       <p>
-        A confirmation email has been sent to <span>ash@loremcompany.com.</span> 
+        A confirmation email has been sent to <span class="userEmail">ash@loremcompany.com.</span> 
         Please open it and click the button inside to confirm your subscription.
       </p>
     </section>
@@ -74,4 +76,5 @@
 </main>
   
 </body>
+<script src="main.js"></script>
 </html>
